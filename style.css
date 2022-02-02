@@ -27,7 +27,7 @@ body{
 
 #newtask input{
     border-radius: 5px;
-    width: 70%;
+    width: 80%;
     height: 45px;
     font-size: 15px;
     border: 2px solid #d1d3d4;
@@ -39,7 +39,7 @@ body{
 
 #newtask input:focus{
     outline: none;
-    border-color: #19a68c;
+    border-color: dodgerblue;
 }
 
 #newtask button{
@@ -50,7 +50,7 @@ body{
     border-radius: 3px;
     font-weight: 500;
     font-size: 16px;
-    background: #19a68c;
+    background: dodgerblue;
     color: #fff;
     border: none;
     outline: none;
@@ -60,7 +60,7 @@ body{
 #tasks{
     width: 100%;
     position: relative;
-    margin-top: 40px;
+    margin-top: 20px;
     background: #fff;
     padding: 30px 20px;
     border-radius: 5px;
@@ -69,9 +69,8 @@ body{
 .task{
     background: #fff;
     height: 50px;
-    padding: 5px 10px;
+    padding: 5px 5px;
     border-radius: 0px;
-    margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -88,7 +87,7 @@ body{
 
 .task button{
     border: none;
-    background: #19a68c;
+    background: dodgerblue;
     height: 100%;
     width: 40px;
     color: #fff;
@@ -96,7 +95,12 @@ body{
     cursor: pointer;
 }
 
+#taskname{
+    color: black;
+    width: 430px;
+}
+
 .completed{
     text-decoration: line-through;
-    opacity: 0.7;
+    opacity: 0.3;
 }
